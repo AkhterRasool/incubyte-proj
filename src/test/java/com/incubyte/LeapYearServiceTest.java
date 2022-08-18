@@ -28,5 +28,6 @@ public class LeapYearServiceTest {
     void yearShouldBeLeapYearIfDivisibleBy4ButNotBy100() {
         assertTrue(subject.isLeapYear(2008));
         assertTrue(subject.isLeapYear(2012));
+        assertTrue(subject.isLeapYear(2016));
     }
 }
