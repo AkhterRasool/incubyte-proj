@@ -2,8 +2,7 @@ package com.incubyte;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class LeapYearServiceTest {
 
@@ -36,5 +35,11 @@ public class LeapYearServiceTest {
         assertFalse(subject.isLeapYear(2017));
         assertFalse(subject.isLeapYear(2018));
         assertFalse(subject.isLeapYear(2019));
+    }
+
+    @Test
+    void shouldThrowIllegalArgumentExceptionIfYearIsPassedAsNegative() {
+        IllegalArgumentException illegalArgumentException = assertThrows(IllegalArgumentException.class, () -> subject.isLeapYear(-2000));
+        assertEquals("A year cannot be negative: -2000. Did you mean 2000?", illegalArgumentException.getMessage());
     }
 }
