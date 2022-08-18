@@ -39,7 +39,10 @@ public class LeapYearServiceTest {
 
     @Test
     void shouldThrowIllegalArgumentExceptionIfYearIsPassedAsNegative() {
-        IllegalArgumentException illegalArgumentException = assertThrows(IllegalArgumentException.class, () -> subject.isLeapYear(-2000));
-        assertEquals("A year cannot be negative: -2000. Did you mean 2000?", illegalArgumentException.getMessage());
+        IllegalArgumentException illegalArgumentException1 = assertThrows(IllegalArgumentException.class, () -> subject.isLeapYear(-2000));
+        assertEquals("A year cannot be negative: -2000. Did you mean 2000?", illegalArgumentException1.getMessage());
+
+        IllegalArgumentException illegalArgumentException2 = assertThrows(IllegalArgumentException.class, () -> subject.isLeapYear(-3000));
+        assertEquals("A year cannot be negative: -3000. Did you mean 3000?", illegalArgumentException2.getMessage());
     }
 }

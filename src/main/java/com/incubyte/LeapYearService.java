@@ -1,7 +1,11 @@
 package com.incubyte;
 
 public class LeapYearService {
+
     public boolean isLeapYear(int year) {
+        if (year < 0) {
+            throw new IllegalArgumentException("A year cannot be negative: " + year + ". Did you mean " + Math.abs(year) + "?");
+        }
         if (isDivisibleBy100AndNotBy400(year)) {
             return false;
         }
