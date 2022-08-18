@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.incubyte.LeapYearServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-18T12:58:48" hostname="Mohammeds-MacBook-Pro.local" time="0.02">
+<testsuite name="com.incubyte.LeapYearServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-18T12:59:51" hostname="Mohammeds-MacBook-Pro.local" time="0.023">
   <properties/>
-  <testcase name="yearShouldBeLeapYearIfDivisibleBy4ButNotBy100()" classname="com.incubyte.LeapYearServiceTest" time="0.016"/>
-  <testcase name="yearShouldNotBeLeapYearIfDivisibleBy100AndNotBy400()" classname="com.incubyte.LeapYearServiceTest" time="0.001"/>
-  <testcase name="yearShouldBeLeapYearWhenDivisibleBy400()" classname="com.incubyte.LeapYearServiceTest" time="0.001"/>
+  <testcase name="yearShouldBeLeapYearIfDivisibleBy4ButNotBy100()" classname="com.incubyte.LeapYearServiceTest" time="0.019"/>
+  <testcase name="yearShouldNotBeLeapYearIfDivisibleBy100AndNotBy400()" classname="com.incubyte.LeapYearServiceTest" time="0.002"/>
+  <testcase name="yearShouldBeLeapYearWhenDivisibleBy400()" classname="com.incubyte.LeapYearServiceTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
