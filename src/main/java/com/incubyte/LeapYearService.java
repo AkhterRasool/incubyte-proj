@@ -5,11 +5,7 @@ public class LeapYearService {
         if (isDivisibleBy100AndNotBy400(year)) {
             return false;
         }
-        return isDivisibleBy4Only(year) || isDivisible(year, 400);
-    }
-
-    private boolean isDivisibleBy4Only(int year) {
-        return isDivisible(year, 4);
+        return isDivisible(year, 4) || isDivisible(year, 400);
     }
 
     private boolean isDivisibleBy100AndNotBy400(int year) {
