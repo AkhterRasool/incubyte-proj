@@ -10,6 +10,6 @@ public class LeapYearServiceTest {
 
     @Test
     void yearShouldBeLeapYearWhenDivisibleBy400() {
-        assertTrue(subject.isLeapYear(400));
+        assertTrue(subject.isLeapYear(2000));
     }
 }
