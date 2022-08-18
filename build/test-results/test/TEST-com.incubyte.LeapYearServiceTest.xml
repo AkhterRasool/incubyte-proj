@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.incubyte.LeapYearServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-18T12:54:00" hostname="Mohammeds-MacBook-Pro.local" time="0.017">
+<testsuite name="com.incubyte.LeapYearServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-18T12:55:27" hostname="Mohammeds-MacBook-Pro.local" time="0.016">
   <properties/>
-  <testcase name="yearShouldBeLeapYearIfDivisibleBy4ButNotBy100()" classname="com.incubyte.LeapYearServiceTest" time="0.017"/>
+  <testcase name="yearShouldBeLeapYearIfDivisibleBy4ButNotBy100()" classname="com.incubyte.LeapYearServiceTest" time="0.016"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
