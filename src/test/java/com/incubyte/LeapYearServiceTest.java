@@ -22,4 +22,10 @@ public class LeapYearServiceTest {
         assertFalse(subject.isLeapYear(1900));
         assertFalse(subject.isLeapYear(2100));
     }
+
+
+    @Test
+    void yearShouldBeLeapYearIfDivisibleBy4ButNotBy100() {
+        assertTrue(subject.isLeapYear(2008));
+    }
 }
