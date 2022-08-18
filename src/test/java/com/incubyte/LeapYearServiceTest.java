@@ -2,7 +2,7 @@ package com.incubyte;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.AssertTrue.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class LeapYearServiceTest {
 
